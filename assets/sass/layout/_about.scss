@@ -1,0 +1,48 @@
+.about{
+  position: absolute;
+  top: 562px;
+  left: 630px;
+  height: 200px;
+  width: 702px;
+  background-color: $white;
+}
+
+.about__description{
+  display: inline-block;
+  padding: 40px 0 40px 100px;
+}
+
+.about__description h3{
+  font-size: $xx-large;
+  font-family: $pt-mono;
+  font-weight: $regular;
+  color: $black;
+}
+
+.about__description h4{
+  font-size: $medium;
+  font-family: $roboto;
+  font-weight: $light;
+  color: $black;
+}
+
+.about__arrow--yellow{
+  position: absolute;
+  top: 0;
+  left: 702px;
+  width: 200px;
+  height: 200px;
+  background-color: $coral;
+}
+
+.about__arrow--orange{
+  text-align: center;
+  color: $white;
+  position: absolute;
+  top: -30px;
+  left: 680px;
+  width: 200px;
+  height: 200px;
+  background-color: $flame;
+  padding-top: 60px;
+}

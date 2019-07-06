@@ -1,0 +1,70 @@
+.know{
+  display: flex;
+}
+
+.know__paragraph{
+  width: 500px;
+  height: 500px;
+  padding: 50px 0 50px 100px;
+}
+
+.know__paragraph h4{
+  font-size: $x-large;
+  font-family: $pt-mono;
+  font-weight: $light;
+  color: $black;
+}
+
+.know__paragraph p{
+  font-size: $medium;
+  font-family: $roboto;
+  font-weight: $regular;
+  color: $black;
+  margin-top: 30px;
+}
+
+.know__img{
+  display: flex;
+}
+
+.know__rectangle--blue{
+  width: 830px;
+  height: 340px;
+  background-color: $blue-de-france;
+}
+
+.know__img--01 img{
+  width: 80%;
+  position: relative;
+  left: -30px;
+  top: 30px;
+}
+
+.know__img--03{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.know__img--03 img{
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.know__img--02{
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+
+.know__img--02 img{
+    width: 581px;
+    height: 380px;
+}
+
+.know__img--03{
+  position: absolute;
+  left: 1250px;
+  top: auto;
+}

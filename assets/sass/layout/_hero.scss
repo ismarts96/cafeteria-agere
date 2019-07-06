@@ -1,0 +1,26 @@
+.hero{
+  width: 100%;
+}
+.hero__image{
+  width: 70%;
+  display: inline-block;
+}
+
+.hero__title{
+  display: inline-block;
+  padding-left: 100px;
+}
+.hero__title h1{
+  font-family: $pt-mono;
+  font-size: $xxx-large;
+  font-weight: $regular;
+  color: $black;
+
+}
+.hero__title h2{
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $large;
+  color: $black;
+  margin-top: 70px;
+}

@@ -1,0 +1,170 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-white {
+  background-color: #fff;
+  color: #000000;
+  padding: 20px 0 20px 0;
+}
+
+.navbar__img {
+  width: 40px;
+  margin: 0 60px 0 60px;
+}
+
+.navbar__login {
+  margin-right: 60px;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero__image {
+  width: 70%;
+  display: inline-block;
+}
+
+.hero__title {
+  display: inline-block;
+  padding-left: 100px;
+}
+
+.hero__title h1 {
+  font-family: "PT Mono", monospace;
+  font-size: 70px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.hero__title h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 70px;
+}
+
+.about {
+  position: absolute;
+  top: 562px;
+  left: 630px;
+  height: 200px;
+  width: 702px;
+  background-color: #fff;
+}
+
+.about__description {
+  display: inline-block;
+  padding: 40px 0 40px 100px;
+}
+
+.about__description h3 {
+  font-size: 40px;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  color: #000000;
+}
+
+.about__description h4 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.about__arrow--yellow {
+  position: absolute;
+  top: 0;
+  left: 702px;
+  width: 200px;
+  height: 200px;
+  background-color: #EACB31;
+}
+
+.about__arrow--orange {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: -30px;
+  left: 680px;
+  width: 200px;
+  height: 200px;
+  background-color: #e4572e;
+  padding-top: 60px;
+}
+
+.know {
+  display: flex;
+}
+
+.know__paragraph {
+  width: 500px;
+  height: 500px;
+  padding: 50px 0 50px 100px;
+}
+
+.know__paragraph h4 {
+  font-size: 30px;
+  font-family: "PT Mono", monospace;
+  font-weight: 300;
+  color: #000000;
+}
+
+.know__paragraph p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.know__img {
+  display: flex;
+}
+
+.know__rectangle--blue {
+  width: 830px;
+  height: 340px;
+  background-color: #3c91e6;
+}
+
+.know__img--01 img {
+  width: 80%;
+  position: relative;
+  left: -30px;
+  top: 30px;
+}
+
+.know__img--03 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.know__img--03 img {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.know__img--02 {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+
+.know__img--02 img {
+  width: 581px;
+  height: 380px;
+}
+
+.know__img--03 {
+  position: absolute;
+  left: 1250px;
+  top: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
